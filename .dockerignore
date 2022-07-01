@@ -1,0 +1,8 @@
+locust.egg-info/**
+locustio.egg-info/**
+dist/
+build/
+.coverage
+.tox/
+docs/_build
+# Dockerfile # We'd like to ignore this, but it messes up scm_version's detection because it thinks the checkout is dirty
